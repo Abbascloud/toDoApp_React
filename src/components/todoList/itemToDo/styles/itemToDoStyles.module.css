@@ -1,0 +1,21 @@
+.itemToDo__tagsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.itemToDo__tagsListItem {
+  cursor: pointer;
+}
+
+.itemToDo__tagsListItem:not(:last-child) {
+  margin-right: 30px;
+}
+
+.itemToDo__tagsListItem:hover {
+  color: blue;
+}
+/*# sourceMappingURL=itemToDoStyles.module.css.map */

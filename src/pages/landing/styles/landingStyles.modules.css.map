@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "landingStyles.modules.scss"
+    ],
+    "names": [],
+    "file": "landingStyles.modules.css"
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAA;EACT,SAAS,ECHE,MAAM;EDIjB,MAAM,EAAE,MAAM;CACb",
+    "sources": [
+        "todoListStyle.module.scss",
+        "../../../cssVariables/__var.scss"
+    ],
+    "names": [],
+    "file": "todoListStyle.module.css"
+}

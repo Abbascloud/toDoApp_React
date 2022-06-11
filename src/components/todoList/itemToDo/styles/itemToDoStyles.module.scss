@@ -1,0 +1,22 @@
+.itemToDo{
+    &__tagsList{
+        display: flex;
+        list-style: none;
+        padding: 20px 0 20px 0;
+        border-bottom: 1px solid black;
+    }
+    &__tagsListItem{
+        cursor: pointer;
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+        &:hover{
+            color: blue;
+        }
+    }
+
+
+
+
+ 
+}
