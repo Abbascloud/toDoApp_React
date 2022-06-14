@@ -1,0 +1,25 @@
+.addTag__input {
+  padding: 5px;
+  border-right: none;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.addTag__input:hover {
+  border: 1px solid gray;
+}
+
+.addTag__button {
+  padding: 5px;
+  border-left: none;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.addTag__button:hover {
+  border: 1px solid gray;
+}
+/*# sourceMappingURL=addTagStyle.module.css.map */

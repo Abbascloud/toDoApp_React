@@ -1,0 +1,35 @@
+.searchByTag{
+    &__input{
+        padding-left: 5px;
+        height: 50px;
+        border: 1px solid lightgray;
+        color: grey;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: none;
+        &:hover{
+            border: 1px solid black;
+        }
+    }
+    &__buttonFilter{
+        height: 54px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 1px solid lightgray;
+        cursor: pointer;
+        border-left: none;
+        &:hover{
+            border: 1px solid black;
+        }
+    }
+    &__buttonShowAll{
+        margin-left: 20px;
+        height: 54px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid black;
+        }
+    }
+}

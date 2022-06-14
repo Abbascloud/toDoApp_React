@@ -1,0 +1,46 @@
+
+
+
+        .tagsListItem{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            border: 1px solid lightgray;
+            margin-right: 10px;
+            padding: 5px;
+            &:hover{
+                border: 1px solid gray;
+            }
+            &__tag{
+                margin: 0;
+                padding: 0;
+                &:not(:last-child){
+                    margin-right: 30px;
+                }
+                &:hover{
+                    color: blue;
+                }
+            }
+            &__button{
+                height: 20px;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+                border: none;
+
+                &:hover{
+                    border: 1px solid gray;
+                }
+       
+                
+            }
+         
+           
+  
+    }
+
+
+
+

@@ -15,12 +15,31 @@
         flex-direction: column;
         position: absolute;
         background-color: white;
+        font-family:'Roboto', sans-serif; 
+        padding: 10px;
+
     }
     &__textArea{
         z-index: 2000;
+        background-color: white;
+
     }
     &__addButton{
         z-index: 2000;
         cursor: pointer;
+      
+    }
+    &__showButton{
+        height: 55px;
+        border: 1px solid lightgrey;
+        color: grey;
+        font-size: 17px;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        background: white;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid black;
+        }
     }
 }

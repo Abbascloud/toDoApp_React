@@ -3,13 +3,48 @@
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-bottom: 1px solid black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .header__addNote {
   margin-right: 20px;
+}
+
+.header__controllers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.header__navTags {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header__navTagsList {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__navTagsitem {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.header__navTagsitem:hover {
+  color: blue;
+}
+
+.header__navTagsitem:not(:last-child) {
+  margin-right: 15px;
 }
 /*# sourceMappingURL=headerStyles.module.css.map */
